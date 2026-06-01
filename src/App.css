@@ -1,0 +1,17 @@
+.glass-panel {
+  background: rgba(255, 255, 255, 0.84);
+  border: 1px solid rgba(215, 225, 235, 0.9);
+  box-shadow: 0 18px 60px rgba(29, 41, 57, 0.08);
+  backdrop-filter: blur(16px);
+}
+
+.soft-card {
+  background: #ffffff;
+  border: 1px solid #e6edf4;
+  box-shadow: 0 12px 30px rgba(26, 38, 66, 0.06);
+}
+
+.focus-ring:focus-visible {
+  outline: 3px solid rgba(20, 184, 166, 0.35);
+  outline-offset: 2px;
+}
